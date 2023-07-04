@@ -34,8 +34,21 @@ export default defineNuxtConfig({
   ],
   i18n: {
     /* module options */
-    vueI18n: './i18n.config.ts',
-    locales: ['en', 'zh'], 
+    // vueI18n: './i18n.config.ts',
+    lazy:true,
+    langDir:"locales",
+    locales: [
+      {
+        code:"en",
+        iso:"en-US",
+        file:"en.json"
+      },
+      {
+        code:"zh",
+        iso:"zh-CN",
+        file:"zh.json"
+      }
+    ], 
     defaultLocale: 'en',
   }
 })
