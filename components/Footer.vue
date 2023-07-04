@@ -24,10 +24,10 @@
             {{ $t("contact_us") }}
           </h4>
           <a href="tel:+16476137768">{{ $t("tel") }}: +1(647)-613-7768</a><br />
-          <a href="mailto:info@sosweetcanada.com" class="mb-4 inline-block "
+          <a href="mailto:info@sosweetcanada.com" class="inline-block "
             >{{ $t("email") }}: <span class="border-b-2 border-[#fdf9eb]">info@sosweetcanada.com</span></a
           >
-          <p>{{ $t("address") }}</p>
+          <p>{{ $t("address") }}:</p>
           <p class="mb-4">90 Esna Park Dr, Unit 12, Markham, ON, L3R 2R7</p>
           <div class="footer_social_icons flex gap-3">
             <a href="https://instagram.com/sosweet_canada?igshid=Y2I2MzMwZWM3ZA==" target="_blank" rel="noopener noreferrer">
