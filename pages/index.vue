@@ -45,6 +45,7 @@ if (process.client) {
 }
 const { locale } = useI18n();
 const switchLocalePath = useSwitchLocalePath();
+console.log('test')
 </script>
 
 <template>
