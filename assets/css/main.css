@@ -1,0 +1,42 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Noto Sans SC', sans-serif;
+  /* font-family: 'Cabin', sans-serif; */
+  /* font-family: 'Indie Flower', cursive; */
+}
+@media all and (max-width:768px){
+  html{
+    font-size:14px;
+  }
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@font-face{
+  font-family: BianTaoTi;
+  src: url('~/assets/fonts/MaoKenZhuYuanTi-MaokenZhuyuanTi-2.ttf')
+}

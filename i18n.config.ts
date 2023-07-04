@@ -1,0 +1,62 @@
+export default defineI18nConfig(() => ({
+  legacy: false,
+  locale: 'en',
+  messages: {
+    en: {
+      coming_soon: 'COMING SOON...',
+      get_direction:'GET DIRECTION',
+      social_media_slogan:' We are making sweet things happen, follow us on:',
+      wechat_customer_service:'WeChat Customer Service',
+      gta:'GTA',
+      mississauga:'Mississauga',
+      oakville:'Oakville',
+      hamilton:'Hamilton',
+      st_catharines:'St. Catharines',
+      waterloo:'Waterloo',
+      guelph:'Guelph',
+      london:'London',
+      join_us:'Join Us',
+      dessert_chef:'Dessert Chef',
+      patissier:'Patissier',
+      baker:'Baker',
+      kichen_assistant:'Kitchen Assistant',
+      front_desk:'Front Desk',
+      if_you_have_suitable:'If you have suitable skills can send resumes to email:',
+      footer_about:"The demand for natural and authentic ingredients, the desire for deliciousness and health, and the pursuit of quality and happiness have converged into today's SOSWEET. We sell fresh and delicious desserts, exquisite cakes, and we are a dopamine factory! Starting our sweet baking journey in Toronto in 2014, we have around 50,000 cherished customers. Currently located in a central kitchen in Markham, serving friends throughout Ontario. In the days ahead, we only aspire to accompany you through every SOSWEET moment, without greediness.",
+      hours:'Hours',
+      contact_us:"Contact Us",
+      tel:'Tel',
+      email:'Email',
+      address:'Address'
+    },
+    zh: {
+      coming_soon: '敬请期待...',
+      get_direction:'店铺位置',
+      social_media_slogan:'欢乐时光就要开始了，请关注我们的社交账号：',
+      wechat_customer_service:'微信客服',
+      gta:'多伦多地区',
+      mississauga:'密西沙加',
+      oakville:'奥克维尔',
+      hamilton:'哈密尔顿',
+      st_catharines:'圣凯瑟琳地区',
+      waterloo:'滑铁卢',
+      guelph:'圭尔夫',
+      london:'伦敦地区',
+      join_us:'招聘',
+      dessert_chef:'甜品师',
+      patissier:'蛋糕师',
+      baker:'面包师',
+      kichen_assistant:'厨房帮手',
+      front_desk:'前台客服',
+      if_you_have_suitable:'有合适技能的朋友可以发简历至邮箱预约面试：',
+      footer_about:"对天然及纯正食材的要求，对美味与健康的需求，对品质及幸福感的追求，汇聚成了今天的SOSWEET。我们售卖新鲜好吃的甜品，细致精美的蛋糕，还是多巴胺制作工厂！2014年在多伦多开启甜蜜烘焙之旅，拥有5万个左右的客户宝宝，目前坐落于万锦市的一间中央厨房，服务于安省范围的友友们。往后的日子也不贪心只想陪你度过每一个SOSWEET时光～",  
+      hours:'营业时间',
+      contact_us:"联系我们",
+      tel:'电话',
+      email:'邮箱',
+      address:'地址'
+
+
+    }
+  }
+}))
